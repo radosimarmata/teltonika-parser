@@ -864,6 +864,15 @@ class Codec8e extends Codec {
         label: 'fault codes',
         dimension: '',
       },
+      283: {
+        label: 'Driving State',
+        dimension: '',
+        values: {
+          0: 'Ignition ON',
+          1: 'Driving',
+          3: 'Ignition OFF',
+        },
+      },
       385:{
         label : 'Beacon',
         dimension: 'dbm',
