@@ -827,7 +827,8 @@ class Codec8e extends Codec {
         label: 'Unplug Event',
         dimension: '',
         values: {
-          1: 'Send when unplug event happens',
+          0: 'Battery Present',
+          1: 'Battery Unplugged',
         },
       },
       253: {
