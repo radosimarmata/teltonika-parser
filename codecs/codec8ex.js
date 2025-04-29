@@ -562,7 +562,7 @@ class Codec8e extends Codec {
       },
       68: {
         label: 'Battery Current',
-        dimension: 'mA',
+        dimension: 'A',
       },
       69: {
         label: 'GNSS Status',
