@@ -819,8 +819,8 @@ class Codec8e extends Codec {
         label: 'Idling Event',
         dimension: '',
         values: {
-          0: 'Idling ended event',
-          1: 'Idling started event',
+          0: 'Moving',
+          1: 'Idling',
         },
       },
       252: {
