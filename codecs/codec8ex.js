@@ -323,7 +323,7 @@ class Codec8e extends Codec {
       },
       12: {
         label: 'Fuel Used GPS',
-        dimension: '',
+        dimension: 'l',
       },
       13: {
         label: 'Average Fuel Use',
