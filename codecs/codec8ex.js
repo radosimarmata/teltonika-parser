@@ -322,6 +322,14 @@ class Codec8e extends Codec {
           1: '1',
         },
       },
+      4: {
+        label: 'Pulse Counter Din1',
+        dimension: '',
+      },
+      5: {
+        label: 'Pulse Counter Din2',
+        dimension: '',
+      },
       6: {
         label: 'Analog Input 2',
         dimension: 'V',
