@@ -299,12 +299,32 @@ class Codec8e extends Codec {
   ioElements() {
     return {
       1: {
-        label: 'Din 1',
+        label: 'Digital Input 1',
         dimension: '',
         values: {
           0: '0',
           1: '1',
         },
+      },
+      2: {
+        label: 'Digital Input 2',
+        dimension: '',
+        values: {
+          0: '0',
+          1: '1',
+        },
+      },
+      3: {
+        label: 'Digital Input 3',
+        dimension: '',
+        values: {
+          0: '0',
+          1: '1',
+        },
+      },
+      6: {
+        label: 'Analog Input 2',
+        dimension: 'V',
       },
       9: {
         label: 'Analog Input 1',
