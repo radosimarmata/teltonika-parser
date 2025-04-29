@@ -27,6 +27,25 @@ Forked from: https://www.npmjs.com/package/teltonika-parser
     });
   });
 
+  c.on('error', (err) => {
+    switch (err.code) {
+      case 'ECONNRESET':
+        console.error('Connection reset by peer ', err);
+        break;
+      case 'EPIPE':
+        console.error('Broken pipe', err);
+        break;
+      case 'ETIMEDOUT':
+        console.error('Connection timed out', err);
+        break;
+      case 'ECONNREFUSED':
+        console.error('Connection refused', err);
+        break;
+      default:
+        console.error('Error ', err);
+    }
+  })
+
   server.listen(5000, () => {
     console.info("[INFO] Server listening on port 5000");
   })
