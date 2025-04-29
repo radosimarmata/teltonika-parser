@@ -1,5 +1,8 @@
 # README
 
+### Source
+Forked from: https://www.npmjs.com/package/teltonika-parser
+
 ### Usage example
 
 ```
