@@ -723,6 +723,14 @@ class Codec8e extends Codec {
         label: 'CNG Status',
         dimension: '',
       },
+      236: {
+        label: 'Alarm',
+        dimension: '',
+        values: {
+          0: 'Reserved',
+          1: 'Alarm event occured',
+        },
+      },
       237:{
         label: 'Network Type',
         dimension: '',
