@@ -762,9 +762,21 @@ class Codec8e extends Codec {
         label: 'Crash Detection',
         dimension: '',
         values: {
-          1: 'Crash Detected',
-          2: 'Crash Trace Record',
-          3: 'Crash trace record(calibrated)',
+          1: 'Real Crash Detected (device is calibrated)',
+          2: 'Limited Crash Trace (device not calibrated)',
+          3: 'Limited Crash Trace (device is calibrated)',
+          4: 'Full Crash Trace (device not calibrated)',
+          5: 'Full Crash Trace (device is calibrated)',
+          6: 'Real Crash Detected (device not calibrated)',
+        },
+      },
+      248: {
+        label: 'Immobilizer',
+        dimension: '',
+        values: {
+          0: 'iButton not connected',
+          1: 'iButton connected (Immobilizer)',
+          2: 'iButton connected (Authorized Driving)',
         },
       },
       249: {
