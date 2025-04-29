@@ -306,6 +306,10 @@ class Codec8e extends Codec {
           1: '1',
         },
       },
+      9: {
+        label: 'Analog Input 1',
+        dimension: 'V',
+      },
       10: {
         label: 'SD Status',
         values: {
