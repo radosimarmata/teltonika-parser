@@ -723,6 +723,18 @@ class Codec8e extends Codec {
         label: 'CNG Status',
         dimension: '',
       },
+      237:{
+        label: 'Network Type',
+        dimension: '',
+        values: {
+          0: '3G',
+          1: 'GSM',
+          2: '4G',
+          3: 'LTE CAT M1',
+          4: 'LTE CAT NB1',
+          99: 'Unknown',
+        }
+      },
       238: {
         label: 'User ID',
         dimension: '',
